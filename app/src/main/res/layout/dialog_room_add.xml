@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new room"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="30dp"
+        />
+    <EditText
+        android:id="@+id/et_room_number"
+        android:layout_marginTop="50dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Room Number"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:inputType="number"/>
+
+
+
+    <EditText
+        android:id="@+id/et_room_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Unique ID"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:inputType="text"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENERATE ID"
+        android:textSize="30dp"
+        android:id="@+id/btn_generate_id"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="CANCEL"
+            android:id="@+id/btn_cancel"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="SAVE"
+            android:id="@+id/btn_save"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp"
+        android:id="@+id/room_item_layout">
+
+        <TextView
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:text="Room nr"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingLeft="48dp"
+            android:id="@+id/tv_room_number" />
+
+        <TextView
+            android:id="@+id/tv_room_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="Empty"
+            android:textColor="@color/colorEmptyRoom"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <!-- expanded view -->
+    <LinearLayout
+        android:id="@+id/room_item_layout_expanded"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="DETAILS"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:id="@+id/tv_room_details"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:id="@+id/tv_room_logout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="CLIENT LOGOUT"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_weight="4"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:id="@+id/tv_room_delete"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_weight="3"/>
+    </LinearLayout>
+    <View style="@style/Divider"/>
+
+
+</LinearLayout>

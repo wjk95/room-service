@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F4CD56</color>
+    <color name="colorPrimaryDark">#FFC107</color>
+    <color name="colorAccent">#A9CB74</color>
+    <color name="colorEmptyRoom">#4CA513</color>
+    <color name="colorOccupiedRoom">#E20505</color>
+    <color name="colorBackgroundYellow">#F4CD56</color>
+    <color name="colorBackgroundGreen">#A9CB74</color>
+    <color name="colorBackgroundGray">#EAEAEA</color>
+
+</resources>
