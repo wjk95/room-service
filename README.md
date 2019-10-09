@@ -14,4 +14,4 @@ Receptionist will only receive requests of ordering a taxi.
 Maid will only receive requests involving room cleaning services.
 Consierge will only receive special requests (coming to the room).
 
-Manager receives all requests to monitor them, or to help other workers in fulfilling them. He also has a panel dedicated to room management, adding and deleting rooms and changing their IDs.
+Manager receives all requests so he can monitor them, or to help other workers in fulfilling them. He also has a panel dedicated to room management, adding and deleting rooms and changing their IDs.
