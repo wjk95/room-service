@@ -15,3 +15,17 @@ Maid will only receive requests involving room cleaning services.
 Consierge will only receive special requests (coming to the room).
 
 Manager receives all requests so he can monitor them, or to help other workers in fulfilling them. He also has a panel dedicated to room management, adding and deleting rooms and changing their IDs.
+
+# Test login
+
+To login to the TestHotel accounts and rooms, use one of the following accounts:
+
+Login: admin@testhotel.pl
+Password: 123456
+
+Login: helena@hotel.pl
+Password: 123456
+
+Or generate a QR code with
+
+weddirk5
